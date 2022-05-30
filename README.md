@@ -1,5 +1,15 @@
 # Dockerised CS:GO Client
 
+## Rationale
+
+Amongst other things, this can be useful for:
+
+- Automated E2E testing in the cloud (can run on Kubernetes)
+- Manual testing with multiple CS:GO instances from one PC
+
+
+## Features
+
 - uses https://gitlab.com/Mr_Goldberg/goldberg_emulator to avoid the need for steam
 - adds `LD_PRELOAD` for `gameoverlayrenderer.so` (otherwise the game crashes)
 
