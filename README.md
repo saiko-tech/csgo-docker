@@ -1,4 +1,7 @@
-# Dockerised CS:GO
+# Dockerised CS:GO Client
+
+- uses https://gitlab.com/Mr_Goldberg/goldberg_emulator to avoid the need for steam
+- adds `LD_PRELOAD` for `gameoverlayrenderer.so` (otherwise the game crashes)
 
 ## Build
 
