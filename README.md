@@ -24,3 +24,9 @@ docker run --rm -it \
 ## Acknowledgements
 
 This is heavily based on https://github.com/mikenye/docker-steam
+
+## License
+
+The contents of this repository are licensed under the MIT license.
+However, CS:GO and the contents of any built docker image are subject to licenses from third parties, including Valve.
+No affiliation with Valve.
